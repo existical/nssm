@@ -59,7 +59,7 @@ var Nssm = require('nssm');
 //var Nssm = require('../');
 
 var svcName = 'AeLookupSvc';
-var options = { nssmExe: 'nssm.exe' }; // default
+var options = { nssmExe: 'nssm.exe', encoding: 'utf8' }; // default
 var nssm = Nssm(svcName, options);
 
 var propertyName = 'Start';

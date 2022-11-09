@@ -1,5 +1,5 @@
 {
-  "name": "nssm",
+  "name": "@acidemic/nssm",
   "version": "0.1.1",
   "description": "Wrapper for nssm.exe to manage windows services",
   "main": "./index.js",
@@ -34,16 +34,12 @@
   "keywords": [
     "nssm.exe,nssm,windows,service,services,manager,install,remove,start,restart,stop,status,svc,winsvc"
   ],
-  "author": "Alexander <alykoshin@gmail.com>",
+  "author": "acidemic",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alykoshin/nssm.git"
+    "url": "https://github.com/existical/nssm.git"
   },
-  "bugs": {
-    "url": "https://github.com/alykoshin/nssm/issues"
-  },
-  "homepage": "https://github.com/alykoshin/nssm",
   "dependencies": {
     "minimist": "^1.2.0"
   },

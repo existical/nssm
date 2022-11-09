@@ -12,8 +12,7 @@
 
 Wrapper for `nssm.exe` to manage Windows services with `Promises` support
 
-
-If you have different needs regarding the functionality, please add a [feature request](https://github.com/alykoshin/nssm/issues).
+This is fork of [nssm](https://www.npmjs.com/package/nssm) package
 
 Supported node version: `"node": ">=0.12"`
 
@@ -21,7 +20,7 @@ Supported node version: `"node": ">=0.12"`
 ## Installation
 
 ```sh
-npm install --save nssm
+npm i @acidemic/nssm
 ```
 
 ## Usage
@@ -233,7 +232,7 @@ parameter: `AppPriority`:
 [Alexander](https://github.com/alykoshin/)
 
 
-# Links to package pages:
+# Links to original package pages:
 
 [github.com](https://github.com/alykoshin/nssm) &nbsp; [npmjs.com](https://www.npmjs.com/package/nssm) &nbsp; [travis-ci.org](https://travis-ci.org/alykoshin/nssm) &nbsp; [coveralls.io](https://coveralls.io/github/alykoshin/nssm) &nbsp; [inch-ci.org](https://inch-ci.org/github/alykoshin/nssm)
 
